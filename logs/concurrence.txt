@@ -142,7 +142,3 @@ Requisitions: 500 | Time elapsed: 70775 ms | 70.775 s
 Requisitions: 500 | Time elapsed: 67256 ms | 67.256 s
 Requisitions: 500 | Time elapsed: 68751 ms | 68.751 s
 
-
-
-
-

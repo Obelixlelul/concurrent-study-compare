@@ -47,8 +47,10 @@ int main(int argc, char* argv[])
         // CALL iterations TIMES TO API
         for (int i = 0; i < iterations; ++i){
             res = curl_easy_perform(curl);
-            if (res != CURLE_OK)
-                fprintf(stderr, "curl_easy_perform() returned %s\n", curl_easy_strerror(res));
+            if (res != CURLE_OK){
+                fprintf(stderr, "curl_easy_perform() returned %s, Aborting execution because samples were compromised...\n", curl_easy_strerror(res));
+                return 1;
+            }
         }
         curl_easy_cleanup(curl);
 
