@@ -10,6 +10,7 @@
 6. [Libraries](#libraries)
 7. [API Used for This Analysis](#api-used-for-this-analysis)
 8. [Specs](#specs)
+8. [Authors](#authors)
 
 ## Introduction
 This is a program to make requests to an external API, sequentially and concurrently, to meansure time elapsed generating two logs with number of requests and time lapse in milliseconds and seconds. 
@@ -57,3 +58,7 @@ Serviço - [Roll Dice](https://rapidapi.com/vishukaypri/api/roll-dice1/)
 ## Specs
 Intel® Core™ i7-7700HQ CPU @ 2.80GHz × 8 
 Ubuntu 22.04 LTS
+
+## Authors
+[Rafael Fortunato](https://github.com/obelixlelul)
+[Joao de Souza](https://github.com/joaosfvieira)
